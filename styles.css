@@ -1,6 +1,27 @@
 
-.new-exorcismo {
+body {
+    background-color: moccasin;
+    border: solid 2px;
+    margin: 35px;
+    padding: 35px;
+}
+.noticias {
     -webkit-column-count: 3;
     -moz-column-count: 3;
+    column-count: 3;
 
     }
+
+    #titulo {
+        border-style: double; 
+        display:flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-self: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 125px;
+        justify-content: space-around;
+        
+       
+        
+    } 
